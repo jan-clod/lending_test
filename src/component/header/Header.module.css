@@ -1,0 +1,27 @@
+.block_header {
+  display: flex;
+  align-items: start;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.block_header ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.block_header li {
+  list-style-type: none; /* Убираем маркеры */
+  font-size: 20px;
+  margin: 0 20px;
+}
+.block_header p {
+  margin: 0px 0px 0px 200px;
+}
+.block_header li img {
+  height: 30px;
+}
+img.header_logo {
+  height: auto;
+  width: 200px;
+}
