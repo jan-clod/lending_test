@@ -58,6 +58,7 @@
   font-size: larger;
   background-color: #4077f3;
   color: white;
+  cursor: pointer;
 }
 .block_buttonContainer {
   height: 200px;

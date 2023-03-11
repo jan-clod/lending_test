@@ -10,28 +10,28 @@ export function Footer() {
             <footer className={s.block_footer}>
                 <section className={s.footer_section}>
                     <p className={s.firstP}>О КОМПАНИИ</p>
-                    <span>Партнёрская программа</span><br />
-                    <span>Вакансии</span><br />
+                    <span><a href='1'>Партнёрская программа</a></span><br />
+                    <span><a href='2'>Вакансии</a></span><br />
                 </section>
 
                 <div className={s.section_menu}>
                     <p className={s.firstP}>Меню</p>
                     <div className={s.section_menu_container}>
                         <section className={s.footer_section }>
-                            <span>Кейсы</span><br />
-                            <span>Благодарственные письма</span><br />
-                            <span>Сертификаты</span><br />
-                            <span>Блог на Youtube</span><br />
-                            <span>Вопрос / Ответ</span><br />
+                            <span><a href='1'>Кейсы</a></span><br />
+                            <span><a href='2'>Благодарственные письма</a></span><br />
+                            <span><a href='3'>Сертификаты</a></span><br />
+                            <span><a href='4'>Блог на Youtube</a></span><br />
+                            <span><a href='5'>Вопрос / Ответ</a></span><br />
                         </section>
 
                         <section >
                             <div className={s.footer_section }>
-                                <span>Расчет стоимости</span><br />
-                                <span>Услуги</span><br />
-                                <span>Виджеты</span><br />
-                                <span>Интеграции</span><br />
-                                <span>Наши клиенты</span><br />
+                                <span><a href='1'>Расчет стоимости</a></span><br />
+                                <span><a href='2'>Услуги</a></span><br />
+                                <span><a href='3'>Виджеты</a></span><br />
+                                <span><a href='4'>Интеграции</a></span><br />
+                                <span><a href='5'>Наши клиенты</a></span><br />
                             </div>
                         </section>
                     </div>

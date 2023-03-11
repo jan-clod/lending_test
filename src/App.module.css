@@ -96,6 +96,10 @@
   box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
   filter: blur(7px);
 }
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
 
 @media (max-width: 900px) {
   :root {
