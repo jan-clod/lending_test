@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/lending_test/static/css/main.2ba82e00.css",
+    "main.js": "/lending_test/static/js/main.4d013b8a.js",
+    "static/js/787.ad4ef829.chunk.js": "/lending_test/static/js/787.ad4ef829.chunk.js",
+    "static/media/fonLending.png": "/lending_test/static/media/fonLending.dfada56abc9ff3d86c22.png",
+    "static/media/logo.png": "/lending_test/static/media/logo.f2d97f560977f5a29883.png",
+    "static/media/mail.png": "/lending_test/static/media/mail.c29476a0c6907bf49343.png",
+    "static/media/telega.png": "/lending_test/static/media/telega.d066ba99903e3299eccb.png",
+    "static/media/github.png": "/lending_test/static/media/github.d605275f83b4eb4b7082.png",
+    "index.html": "/lending_test/index.html",
+    "main.2ba82e00.css.map": "/lending_test/static/css/main.2ba82e00.css.map",
+    "main.4d013b8a.js.map": "/lending_test/static/js/main.4d013b8a.js.map",
+    "787.ad4ef829.chunk.js.map": "/lending_test/static/js/787.ad4ef829.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ba82e00.css",
+    "static/js/main.4d013b8a.js"
+  ]
+}
