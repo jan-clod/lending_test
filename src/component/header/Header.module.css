@@ -20,6 +20,7 @@
 }
 .block_header li img {
   height: 30px;
+  filter: hue-rotate( 360deg)
 }
 img.header_logo {
   height: auto;

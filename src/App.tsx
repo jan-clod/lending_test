@@ -7,9 +7,18 @@ import { Main } from './component/main/Main';
 function App() {
   return (
     <div className={s.block}>
-      <Header />
-      <Main />
-      <Footer />
+      <div className={s.wrap}>
+        <div className={s.button + ' ' + s.one}></div>
+        <div className={s.button + ' ' + s.two}></div>
+        <div className={s.button + ' ' + s.three}></div>
+        <div className={s.button + ' ' + s.four}></div>
+      </div>
+      <div  className={s.block_component}>
+        <Header />
+        <Main />
+        <Footer />
+      </div>
+
     </div>
   );
 }

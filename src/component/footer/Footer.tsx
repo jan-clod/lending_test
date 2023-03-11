@@ -17,17 +17,16 @@ export function Footer() {
                 <div className={s.section_menu}>
                     <p className={s.firstP}>Меню</p>
                     <div className={s.section_menu_container}>
-                        <section className={s.footer_section + ' ' + s.section3}>
+                        <section className={s.footer_section }>
                             <span>Кейсы</span><br />
                             <span>Благодарственные письма</span><br />
                             <span>Сертификаты</span><br />
                             <span>Блог на Youtube</span><br />
                             <span>Вопрос / Ответ</span><br />
-
                         </section>
 
-                        <section className={s.footer_section + ' ' + s.section2}>
-                            <div className={s.footer_section + ' ' + s.section2}>
+                        <section >
+                            <div className={s.footer_section }>
                                 <span>Расчет стоимости</span><br />
                                 <span>Услуги</span><br />
                                 <span>Виджеты</span><br />

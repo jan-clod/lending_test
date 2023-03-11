@@ -1,28 +1,120 @@
-:root{
-  background-image: url(./fonLending.png);
+:root {
   color: rgb(248, 248, 248);
-
+  background-color: #1e1e1e;
 }
-.block{
+.block {
   margin: 20px auto 0px;
-  
+
   width: 85vw;
   height: max-content;
 
   min-width: 1024px;
 }
 
+.wrap {
+  position: absolute;
+
+  height: 200px;
+  padding: 50px 0;
+}
+.block_component {
+  z-index: 2;
+}
+.button {
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(
+    64% 64% at 27.25% 26.5%,
+    rgba(255, 208, 208, 0.536) 0%,
+    rgba(212, 93, 93, 0.264) 59.67%,
+    rgba(167, 49, 49, 0.248) 78.59%,
+    rgba(130, 25, 25, 0.248) 100%
+  );
+  box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+  filter: blur(2px);
+}
+.one {
+  z-index: 0;
+  top: 400px;
+  left: -20px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(
+    64% 64% at 27.25% 26.5%,
+    rgba(255, 208, 208, 0.536) 0%,
+    rgba(212, 93, 93, 0.264) 59.67%,
+    rgba(167, 49, 49, 0.248) 78.59%,
+    rgba(130, 25, 25, 0.248) 100%
+  );
+  box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+  filter: blur(100px);
+}
+.two {
+  top: 120px;
+  left: 530px;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(
+    64% 64% at 27.25% 26.5%,
+    rgba(255, 208, 208, 0.536) 0%,
+    rgba(212, 93, 93, 0.264) 59.67%,
+    rgba(167, 49, 49, 0.248) 78.59%,
+    rgba(130, 25, 25, 0.248) 100%
+  );
+  box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+}
+.three {
+  top: 700px;
+  left: 1050px;
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(
+    64% 64% at 27.25% 26.5%,
+    rgba(255, 208, 208, 0.536) 0%,
+    rgba(212, 93, 93, 0.264) 59.67%,
+    rgba(167, 49, 49, 0.248) 78.59%,
+    rgba(130, 25, 25, 0.248) 100%
+  );
+  box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+  backdrop-filter: blur(10px);
+}
+.four {
+  top: 5px;
+  left: 1000px;
+  width: 70px;
+  height: 70px;
+  background: radial-gradient(
+    64% 64% at 27.25% 26.5%,
+    rgba(236, 208, 255, 0.64) 0%,
+    rgba(161, 93, 207, 0.24) 59.67%,
+    rgba(118, 49, 164, 0.208) 78.59%,
+    rgba(86, 24, 128, 0.232) 100%
+  );
+  box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+  filter: blur(7px);
+}
+
 @media (max-width: 900px) {
-  :root{
+  :root {
     width: 100vw;
     margin: 0;
-
   }
-  .block{
+  .block {
     margin: 0 auto;
-    width: 100%;    
+    width: 100%;
     min-width: 0;
     height: max-content;
   }
+  .two {
+    display: none;
+  }
+  .three {
+    display: none;
+  }
+  .four {
+    display: none;
+  }
 }
-
