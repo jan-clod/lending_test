@@ -13,26 +13,32 @@ export function Footer() {
                     <span>Партнёрская программа</span><br />
                     <span>Вакансии</span><br />
                 </section>
-                <section className={s.footer_section + ' ' + s.section2}>
+
+                <div className={s.section_menu}>
                     <p className={s.firstP}>Меню</p>
-                    <div className={s.footer_section + ' ' + s.section2}>
-                        <span>Расчет стоимости</span><br />
-                        <span>Услуги</span><br />
-                        <span>Виджеты</span><br />
-                        <span>Интеграции</span><br />
-                        <span>Наши клиенты</span><br />
+                    <div className={s.section_menu_container}>
+                        <section className={s.footer_section + ' ' + s.section3}>
+                            <span>Кейсы</span><br />
+                            <span>Благодарственные письма</span><br />
+                            <span>Сертификаты</span><br />
+                            <span>Блог на Youtube</span><br />
+                            <span>Вопрос / Ответ</span><br />
+
+                        </section>
+
+                        <section className={s.footer_section + ' ' + s.section2}>
+                            <div className={s.footer_section + ' ' + s.section2}>
+                                <span>Расчет стоимости</span><br />
+                                <span>Услуги</span><br />
+                                <span>Виджеты</span><br />
+                                <span>Интеграции</span><br />
+                                <span>Наши клиенты</span><br />
+                            </div>
+                        </section>
                     </div>
 
-                </section>
-                <section className={s.footer_section + ' ' + s.section3}>
-                    <p className={s.firstP + ' ' + s.non}> _ </p>
-                    <span>Кейсы</span><br />
-                    <span>Благодарственные письма</span><br />
-                    <span>Сертификаты</span><br />
-                    <span>Блог на Youtube</span><br />
-                    <span>Вопрос / Ответ</span><br />
+                </div>
 
-                </section>
                 <section className={s.footer_section + ' ' + s.section4}>
                     <p className={s.firstP}>КОНТАКТЫ</p>
                     <span>+7 901 555 55 55</span><br />
