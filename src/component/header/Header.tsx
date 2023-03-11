@@ -18,7 +18,7 @@ export function Header() {
                     <li>Сертификаты</li>
                 </ul>
             </nav>
-            <p>+7 901 555 55 55</p>
+            <p>+79015555555</p>
             <ul>
                 <li><span><img src={mail} alt='404'></img></span></li>
                 <li><a href='https://t.me/jan_cl0d'> <img src={telega} alt='404'></img></a> </li>

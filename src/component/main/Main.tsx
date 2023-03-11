@@ -11,7 +11,7 @@ export function Main() {
                         Зарабатывайте больше <h1 className={s.gradient_text}> с WELBEX</h1>
                     </h1>
                     <p>
-                        Развиваем и контролируес продажи за вас
+                        Развиваем и контролируем продажи за вас
                     </p>
                 </section>
                 <section className={s.block_main_right}>

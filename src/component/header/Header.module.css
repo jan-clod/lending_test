@@ -16,7 +16,7 @@
   margin: 0 20px;
 }
 .block_header p {
-  margin: 0px 0px 0px 200px;
+  margin: 0px 0px 0px 20px;
 }
 .block_header li img {
   height: 30px;
@@ -24,4 +24,14 @@
 img.header_logo {
   height: auto;
   width: 200px;
+}
+@media (max-width: 1300px) {
+.header_logo{
+  display: none;
+}
+}
+@media (max-width: 900px) {
+  .block_header{
+    display: none;
+  }
 }

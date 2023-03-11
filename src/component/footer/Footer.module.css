@@ -5,20 +5,8 @@
   height: 230px;
   font-size: 20px;
 }
-.footer_section p {
-}
 .section4 {
   text-align: end;
-}
-.firstP {
-  color: rgb(172, 172, 172);
-}
-.non {
-  color: rgba(240, 248, 255, 0);
-}
-.footer_section ul {
-  display: flex;
-  justify-content: end;
 }
 .section4 li img {
   height: 30px;
@@ -26,15 +14,59 @@
 .section4 li {
   list-style-type: none; /* Убираем маркеры */
 }
-
-.end {
+.footer_section ul {
+  display: flex;
+  justify-content: end;
+}
+.firstP {
+  color: rgb(172, 172, 172);
+}
+.non {
+  color: rgba(240, 248, 255, 0);
+}
+a {
+  color: #ffffff;
+}
+.block_end {
+  text-align: end;
+  margin-bottom: 30px;
+}
+.end_text {
   font-size: small;
 }
-a{
-    color: #ffffff;
-}
-.ends{ 
-  text-align: end;
+@media (max-width: 1081px) {
+  .block_footer {
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    font-size: 20px;
+    background-color: rgb(29, 29, 29);
+  }
+  .footer_section ul {
+    display: flex;
+    justify-content: end;
+  }
+  .section3 {
+    display: none;
+  }
+  .section4 {
+    display: none;
+  }
+  .block_end {
+    display: none;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-
+    flex-wrap: wrap;
+    width: 95vw;
+  }
+  .section2 span:not(:nth-of-type(4n + 1)) {
+    display: none;
+  }
+  .section2 span {
+    width: min-content;
+  }
 }

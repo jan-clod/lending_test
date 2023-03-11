@@ -6,21 +6,23 @@ import git from './github.png'
 
 export function Footer() {
     return (
-        <div>
+        <div className={s.block}>
             <footer className={s.block_footer}>
-                <section className={s.footer_section + ' ' + s.section1}>
+                <section className={s.footer_section}>
                     <p className={s.firstP}>О КОМПАНИИ</p>
                     <span>Партнёрская программа</span><br />
                     <span>Вакансии</span><br />
-
                 </section>
                 <section className={s.footer_section + ' ' + s.section2}>
                     <p className={s.firstP}>Меню</p>
-                    <span>Расчет стоимости</span><br />
-                    <span>Услуги</span><br />
-                    <span>Виджеты</span><br />
-                    <span>Интеграции</span><br />
-                    <span>Наши клиенты</span><br />
+                    <div className={s.footer_section + ' ' + s.section2}>
+                        <span>Расчет стоимости</span><br />
+                        <span>Услуги</span><br />
+                        <span>Виджеты</span><br />
+                        <span>Интеграции</span><br />
+                        <span>Наши клиенты</span><br />
+                    </div>
+
                 </section>
                 <section className={s.footer_section + ' ' + s.section3}>
                     <p className={s.firstP + ' ' + s.non}> _ </p>
@@ -29,6 +31,7 @@ export function Footer() {
                     <span>Сертификаты</span><br />
                     <span>Блог на Youtube</span><br />
                     <span>Вопрос / Ответ</span><br />
+
                 </section>
                 <section className={s.footer_section + ' ' + s.section4}>
                     <p className={s.firstP}>КОНТАКТЫ</p>
@@ -41,12 +44,11 @@ export function Footer() {
                         </ul>
                     </span>
                     <span >Мoсква, Путевой проезд 3с1б к 902</span><br />
-
                 </section>
             </footer>
-            <div className={s.ends}>
-                <span className={s.end}>WELBEX 2022. Все права защищины</span><br />
-                <span className={s.end}><a href={'asd'}>Политика конфиденциальности</a></span>
+            <div className={s.block_end}>
+                <span className={s.end_text}>WELBEX 2022. Все права защищины</span><br />
+                <span className={s.end_text}><a href={'asd'}>Политика конфиденциальности</a></span>
             </div>
         </div>
     );
