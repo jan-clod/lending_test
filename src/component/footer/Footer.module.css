@@ -17,6 +17,7 @@
 }
 .section4 li img {
   height: 30px;
+  margin: 0 10px;
 }
 .section4 li {
   list-style-type: none; /* Убираем маркеры */
@@ -40,7 +41,7 @@ a {
 }
 @media (max-width: 1081px) {
   .block {
-    background-color: rgb(29, 29, 29);
+    background-color: #151515;
   }
   .block_footer {
     flex-direction: column;
